@@ -40,7 +40,7 @@ public class AnnotationHandlerMapping implements HandlerMapping {
 
     public void initialize() {
         logger.info("## Initialized Annotation Handler Mapping");
-        handlerExecutions.putAll(this.getHandlers(BeanFactory.getInstance().getBeans()));
+//        handlerExecutions.putAll(this.getHandlers(BeanFactory.getInstance().getBeans()));
     }
 
     public Object getHandler(HttpServletRequest request) {

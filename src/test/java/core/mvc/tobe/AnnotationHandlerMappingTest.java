@@ -26,12 +26,12 @@ public class AnnotationHandlerMappingTest {
 
     @BeforeEach
     public void setup() throws InvocationTargetException, InstantiationException, IllegalAccessException {
-        BeanFactory.getInstance().initialize("core.mvc.tobe");
-        handlerMapping = new AnnotationHandlerMapping();
-        handlerMapping.initialize();
-
-        DBInitializer.initialize();
-        userDao = UserDao.getInstance();
+//        BeanFactory.getInstance().initialize("core.mvc.tobe");
+//        handlerMapping = new AnnotationHandlerMapping();
+//        handlerMapping.initialize();
+//
+//        DBInitializer.initialize();
+//        userDao = UserDao.getInstance();
     }
 
     @Test
